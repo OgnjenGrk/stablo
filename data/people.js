@@ -179,7 +179,7 @@ const PEOPLE = [
   },
        {
     "id": "desanka-grkinic",
-    "name": "Десанка Гркинић",
+    "name": "Десанка ГРКИНИЋ",
     "maiden": "Гркинић",
     "gender": "f",
     "birth": "1927",
@@ -188,8 +188,78 @@ const PEOPLE = [
     "photo": null,
     "gallery": [],
     "parents": ["uros-grkinic", "uroseva-zena"],
+    "spouse": "desankin-muz"
+  },
+       {
+    "id": "desankin-muz",
+    "name": "ДЕСАНКИН МУЖ",
+    "maiden": null,
+    "gender": "m",
+    "birth": "ГГГГ",
+    "death": "ГГГГ",
+    "bio": null,
+    "photo": null,
+    "gallery": [],
+    "parents": [],
+    "spouse": "desanka-grkinic"
+  },
+       {
+    "id": "slobodanka-maric",
+    "name": "Слободанка Марић",
+    "maiden": "ХХХХ",
+    "gender": "f",
+    "birth": "1949",
+    "death": "2026",
+    "bio": "Живи у Витезу, у БиХ",
+    "photo": null,
+    "gallery": [],
+    "parents": ["desankin-muz", "desanka-grkinic"],
+    "spouse": "slobodankin-muz"
+  },
+       {
+    "id": "slobodankin-muz",
+    "name": "СЛОБОДАНКИН МУЖ Марић",
+    "maiden": null,
+    "gender": "m",
+    "birth": "ГГГГ",
+    "death": "ГГГГ",
+    "bio": null,
+    "photo": null,
+    "gallery": [],
+    "parents": [],
+    "spouse": "slobodanka-maric"
+  },
+  
+       {
+    "id": "dragana-maric",
+    "name": "Драгана Марић",
+    "maiden": null,
+    "gender": "f",
+    "birth": "ГГГГ",
+    "death": "ГГГГ",
+    "bio": null,
+    "photo": null,
+    "gallery": [],
+    "parents": ["slobodanka-maric", "slobodankin-muz"],
     "spouse": null
   },
+  
+       {
+    "id": "tanja-maric",
+    "name": "Тања Марић",
+    "maiden": null,
+    "gender": "f",
+    "birth": "ГГГГ",
+    "death": "ГГГГ",
+    "bio": null,
+    "photo": null,
+    "gallery": [],
+    "parents": ["slobodanka-maric", "slobodankin-muz"],
+    "spouse": null
+  },
+  
+//---------------------------------------------------
+
          {
     "id": "zivojin-grkinic",
     "name": "Живојин Гркинић - Живко",
@@ -203,6 +273,7 @@ const PEOPLE = [
     "parents": ["uros-grkinic", "uroseva-zena"],
     "spouse": null
   },
+  
          {
     "id": "darinka-kapisoda",
     "name": "Даринка Каписода - Дара",
@@ -558,8 +629,8 @@ const PEOPLE = [
     "spouse": "ratko-radic"
   },
           {
-    "id": "rasina-cerka",
-    "name": "РАШИНА ЋЕРКА",
+    "id": "Jovana Radic",
+    "name": "Јована Радић",
     "maiden": null,
     "gender": "f",
     "birth": "2008",
@@ -571,10 +642,10 @@ const PEOPLE = [
     "spouse": null
   },
           {
-    "id": "rasin-sin",
-    "name": "РАШИН СИН",
+    "id": "petar-radic",
+    "name": "Петар Радић",
     "maiden": null,
-    "gender": "f",
+    "gender": "m",
     "birth": "ГГГГ",
     "death": null,
     "bio": "Син Раше и Бојане. Живи у Новим Бановцима.",
